@@ -7,6 +7,10 @@ body{
 
 }
 #gridContainer{
+    min-width: 500px;
+    min-height: 500px;
+    max-width: 500px;
+    max-height: 500px;
     border: 1px solid black;
 }
 .row{
@@ -15,11 +19,7 @@ body{
 }
 
 .pixel{
-    min-width: 40px;
-    max-width: 40px;
-    min-height: 40px;
     display: inline-flex;
-    
 }
 
 .pixel:hover{
@@ -27,4 +27,7 @@ body{
 }
 .pixelPressed{
     background-color: black;
+}
+#rangeInput{
+
 }
