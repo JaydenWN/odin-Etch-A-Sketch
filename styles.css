@@ -21,3 +21,10 @@ body{
     display: inline-flex;
     
 }
+
+.pixel:hover{
+    background-color: rgba(0, 0, 0, 0.158);
+}
+.pixelPressed{
+    background-color: black;
+}
