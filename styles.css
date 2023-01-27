@@ -1,18 +1,17 @@
-.body{
-    margin: 0px;
-    padding: 0px;
-}
-#gridContainer{
-    border: 2px solid black;
+body{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    
+    justify-content: center;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+#gridContainer{
+    border: 1px solid black;
 }
 .row{
-    background-color: rgba(255, 8, 8, 0.253);
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
 }
 
 .pixel{
@@ -20,5 +19,5 @@
     max-width: 40px;
     min-height: 40px;
     display: inline-flex;
-    border: 1px solid black;
+    
 }

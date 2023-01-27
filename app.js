@@ -21,4 +21,6 @@ function newGrid(numRows, numCols){
     
 }
 
+
 newGrid(16,16)
+
